@@ -20,6 +20,10 @@ export class ShoppingListComponent implements OnInit {
         (ingredients: Ingredient[]) => {
           this.ingredients = ingredients;
         }
-      );
+    );
+  }
+
+  onIngredientAdded(ingredent: Ingredient) {
+    this.ingredients.push(ingredent);
   }
 }
