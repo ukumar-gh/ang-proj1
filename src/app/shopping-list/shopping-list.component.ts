@@ -24,6 +24,6 @@ export class ShoppingListComponent implements OnInit {
   }
 
   onIngredientAdded(ingredent: Ingredient) {
-    this.ingredients.push(ingredent);
+    this.ingredients.push(ingredent); 
   }
 }
